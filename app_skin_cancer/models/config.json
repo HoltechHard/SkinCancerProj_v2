@@ -1,0 +1,9 @@
+{
+    "config": {
+        "host": "localhost",
+        "port": "3306",
+        "user": "root",
+        "password": "$holtech123",
+        "database": "db_skin_cancer"
+    }
+}
