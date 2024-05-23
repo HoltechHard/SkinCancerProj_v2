@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Assistant - MediChat
+{% endblock title %}
+
+{% block stylesheets %}
+    {{ super() }}
+    <!-- own css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/medichat.css') }}">
+{% endblock stylesheets %}
+
+
+{% block content %}
+
+<div class="right_col" role="main">
+    <div class="">
+        <!-- title of web page -->
+        <div class="page-title">
+            <div class="title_left">
+                <h2>AI-Medical System</h2> <hr>
+            </div>
+            <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <!-- system subtitle -->
+        <div class="">
+            <div class="bs-example">
+                <div class="jumbotron">
+                    <h3 style="text-align: center;"> Medical ChatBot</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- panel of list -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="x_panel">
+                    <!-- subtitle -->
+                    <div class="x_title">
+                        <h2>Medical Assistant</h2>
+                        <ul class="nav navbar-right panel_toolbox">
+                            <li>
+                                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                              <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">Settings 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Settings 2</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                                <a class="close-link"><i class="fa fa-close"></i></a>
+                            </li>
+                          </ul>
+                          <div class="clearfix"></div>
+                    </div>
+
+                    <!-- subcontent -->
+                    <div id="masterContainer" class="x_content">
+                        <h4><b>Medical ChatBot Interaction</b></h4>
+                        <div class="clearfix"><br></div>
+
+                        <div id="chatContainer" class="chat-container">
+
+                            <!-- User-Chatbot Interaction-->
+                            <ul id="chatContainerMsg" class="messages">
+                                <!-- Chatbot initialization -->
+                                <div id="lbl-chatbot-init">
+                                    <li>
+                                        <img src="/static/gentelella/images/chatbot.jpg" class="avatar" alt="Avatar">
+                                        <div class="message_date">
+                                            <h4 class="date text-info">{{ data.init_date }}</h4>
+                                            <p class="month">{{ data.init_time }}</p>
+                                        </div>
+                                        <div class="message_wrapper">
+                                            <h4 class="heading">Chatbot</h4>
+                                            <blockquote class="message">
+                                                Hello! How can i assist you today?
+                                            </blockquote>
+                                            <br />                                            
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <!-- Content for user question -->
+                                
+                                <!-- Content for chatbot answer -->
+                                
+                            </ul>                            
+                        </div>
+
+                        <div class="clearfix"></div><br><br>
+
+                        <!-- User ask -->
+                        <div id="questionContainer" class="row">
+                            <div class="col-md-10">
+                                <div id="txt-user-question" class="form-group">
+                                    <textarea id="txtUserQuestion" name="txtUserQuestion" class="resizable_textarea form-control" placeholder="Make your question to Medical Chatbot..."></textarea>
+                                </div>    
+                            </div>
+                            
+                            <div class="col-md-2">
+                                <div class="text-center">
+                                    <button id="btnAsk" type="button" class="btn btn-dark btn-lg">
+                                        <span class="fa fa-medkit"> Ask</span>
+                                    </button>
+                                </div>
+                            </div>    
+                        </div>
+                        
+                        <div class="clearfix"></div><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock content %}
+
+
+{% block javascripts %}
+    {{ super() }}
+    <script src="{{ url_for('static', filename='js/socket.io.min.js') }}"></script>
+    <!-- own scripts -->
+    <script src="{{ url_for('static', filename='js/medichat.js') }}"></script>
+{% endblock javascripts %}
