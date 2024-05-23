@@ -1,0 +1,22 @@
+=========================================
+|              GIT COMMANDS             |
+=========================================
+
+1) create github repo
+
+$ echo "# Skin Cancer Project - v2" >> README.md 
+$ git init
+$ git remote add origin https://github.com/HoltechHard/SkinCancerProj_v2.git
+
+2) push 1st version of project
+
+$ git add README.md 
+$ git commit -m "project description"
+$ git push origin master
+
+3) pull/push updated versions in repo
+
+$ git add <name folder/file>
+$ git commit -m "<commit_message>"
+$ git pull origin master
+$ git push origin master

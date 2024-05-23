@@ -1,0 +1,61 @@
+=========================================
+|          NOSQL COMMAND LINES          |
+=========================================
+
+* QDRANT DATABASE
+
+1) download qdrant vector db in docker image
+
+$ docker pull qdrant/qdrant 
+
+2) run container image 
+
+$ docker run -p 6333:6333 qdrant/qdrant
+
+3) stop and re-run qdrant container 
+
+$ ctrl + C [to stop]
+$ docker start -ai epic_leakey
+
+4) run ingestion process
+
+$ python controllers/rag_ingest.py
+
+check the created qdrant db in docker server side in url:
+http://localhost:6333/dashboard
+
+5) filter data using metadata.source 
+
+metadata.source: "ext_data\\The Gale encyclopedia of cancer a guide to cancer and its treatments.pdf"
+
+6) example of query to filter data using qdrant-API with json
+
+-- qdrant code
+
+// List all collections
+GET collections
+
+// Get collection info
+GET collections/vector_db_medical
+
+// List points in a collection, using filter
+POST collections/vector_db_medical/points/scroll
+{
+  "limit": 10,
+  "query": {
+    "term": {
+      "metadata.source": "ext_data\\The Gale Encyclopedia of Medicine.pdf"
+    }
+  }
+}
+
+
+* MONGODB DATABASE
+
+1) download mongodb key-value database in docker image
+
+$ docker pull mongodb/mongodb-community-server:latest
+
+2) run docker image
+
+$ docker run --name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:latest

@@ -1,0 +1,39 @@
+====================================================
+|              BACKEND COMMAND LINES               |
+====================================================
+
+1) create the virtual environment
+
+$ python -m venv master_env
+
+2) init the virtual environment
+
+$ .\master_env\Scripts\activate
+
+3) install requirement packages
+
+(master_env) > pip install -r requirements.txt
+
+4) install socket-io for flask 
+
+$ pip install flask_socketio
+
+5) take position on master folder
+
+$ cd app_skin_cancer
+
+6) run the flask application
+
+$ python app_skin_cancer.py
+
+7) mysql configuration in case of local run
+    
+    "config": {     
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "$holtech123",
+        "database": "db_skin_cancer"
+    }
+
+
