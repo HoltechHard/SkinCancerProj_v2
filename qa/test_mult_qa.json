@@ -1,0 +1,482 @@
+{
+	"qa-001": {
+		"question": "Which of these is most associated with increased risk for SCC (squamous cell carcinoma)?", 
+		"opa": "History or treatment of actinic keratoses", 
+		"opb": "Long-term interleukin (IL)-17/IL-23 inhibitor use", 
+		"opc": "Long-term thiazide diuretic use", 
+		"opd": "Low social position", 
+		"answer": "opa",
+		"type": "single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "A retrospective cohort study published in JAMA Dermatology aimed to calculate the absolute and relative risks for future skin cancer by subtype in Medicare beneficiaries with actinic keratoses. The researchers found that actinic keratoses increased the risk for SCC most. They also found that the absolute risk for any skin cancer after actinic keratoses increased over time. The researchers concluded that actinic keratoses are not a biological precursor of melanoma or basal cell cancer, but they increase the risk for skin cancer generally and SCC, particularly over time as a clinical sign of UV exposure."
+	},
+
+	"qa-002": {
+		"question": "Which of these has been shown to detect SCC (squamous cell carcinoma) with a sensitivity of more than 97%?",
+		"opa": "Clinical inspection",
+		"opb": "Dermoscopy",
+		"opc": "Elastic scattering spectroscopy",
+		"opd": "Smartphone-captured images used by the clinician",
+		"answer": "opc",
+		"type": "single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "A recent comparative study published in the Journal of the American Academy of Dermatology assessed the safety and effectiveness of an elastic scattering spectroscopy device supported by artificial intelligence (AI) in evaluating lesions suggestive of various subtypes of skin cancer. The researchers found that the overall device sensitivity was 97.04%, with subgroup sensitivity of 97.01% for SCC and overall specificity of 26.22%. The device has been cleared by the US Food and Drug Administration for detecting SCC as well as basal cell cancer and melanoma."
+	},
+
+	"qa-003": {
+		"question": "Which of these is recommended as first-line treatment for patients with multiple, large lesions of SCC in situ that are poorly healing?",
+		"opa": "Electrochemotherapy",
+		"opb": "Immunotherapy",
+		"opc": "Phototherapy",
+		"opd": "Radiotherapy",
+		"answer": "opc",
+		"type": "single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "According to the 2022 BAD guidelines, conventional red-light phototherapy is recommended to be offered as a first-line treatment to patients with SCC in situ, especially for large lesions and multiple lesions that are poorly healing or in a cosmetically sensitive area. This treatment can also be considered for immunosuppressed people with SCC in situ for multiple and frequently recurring lesions; it has been found to be effective and well tolerated even after repeated treatments."
+	},
+
+	"qa-004": {
+		"question": "Which of these was shown to be most accurate regarding the use of incision-site injections of microdosed antibiotics to reduce rates of postoperative surgical-site infections (SSIs) in squamous cell carcinoma?",
+		"opa": "An injected incision-site microdose of clindamycin (500 µg/mL) reduced SSIs about threefold",
+		"opb": "An injected incision-site microdose of flucloxacillin (500 µg/mL) reduced SSIs about threefold",
+		"opc": "Each approach was equally effective",
+		"opd": "Neither approach was any more effective than buffered local anesthetic injected alone",
+		"answer": "opa",
+		"type": "single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "A double-blind, randomized, controlled clinical trial published in JAMA Surgery aimed to determine whether incisional injections of microdosed antibiotics reduce rates of SSIs before skin cancer surgery. The researchers found that clindamycin delivered in microdoses intra-incisionally along with local anesthetic significantly reduced the rate of SSI by almost threefold, whereas intra-incisional microdosed flucloxacillin had similar postoperative effect on the SSI rate to the control arm of buffered local anesthetic injected alone."
+	},
+
+	"qa-005": {
+		"question": "Which of these was shown to most improve overall survival rate, objective response rate, and treatment-related adverse events grade ≥ 3 among patients with recurrent or metastatic head and neck squamous cell carcinoma (SCC)?",
+		"opa": "Antibiotic antineoplastics (bleomycin)",
+		"opb": "EGFR/ErbB1 inhibitors (afatinib or dacomitinib)",
+		"opc": "Programmed cell death protein (PD)-1 inhibitor (nivolumab or pembrolizumab)",
+		"opd": "The standard of care (docetaxel, methotrexate, or cetuximab)",
+		"answer": "opc",
+		"type": "single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "A meta-analysis aimed to compare second-line treatments for patients with platinum-resistant recurrent or metastatic head and neck SCC. The researchers found that the programmed cell death protein (PD)-1 inhibitor significantly improved overall survival rate, objective response rate, and treatment-related adverse events grade ≥ 3 compared with the standard of care."
+	},
+
+	"qa-006": {
+		"question": "Which of the following is accurate regarding risk factors for skin cancer?",
+		"opa": "Genetic predisposition and family history are more important risk factors for the development of melanoma than are exposure to sunlight and radiation",
+		"opb": "Cutaneous squamous cell carcinoma (cSCC) related to immunosuppression typically has a less aggressive course, with a lower rate of local recurrence, metastasis, and death",
+		"opc": "Ultraviolet A (UV-A) radiation plays a greater role in the development of BCC than does ultraviolet B (UV-B) radiation",
+		"opd": "The presence of freckling and benign nevi indicate an increased risk for skin cancer, with the number of nevi more important than the size in terms of melanoma risk",
+		"answer": "opd",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "People who burn easily, such as those with fair or red hair, blue eyes, and light-colored skin, are most prone to develop skin cancer. The presence of freckling and benign nevi also indicates an increased risk for melanoma development. The number of nevi appears to be more important than the size. The presence of more than 100 benign-appearing nevi in adults or greater than 50 clinically normal nevi in children increases risk."
+	},
+
+	"qa-007": {
+		"question": "Of these risk factors for cutaneous melanoma, which is associated with the greatest increased risk?",
+		"opa": "Sun sensitivity",
+		"opb": "Immunosuppression",
+		"opc": "Freckling",
+		"opd": "More than 50 nevi measuring ≥ 2 mm in diameter",
+		"answer": "opd",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "Greatly elevated risk for cutaneous melanoma is associated with a changing mole, more than 50 nevi measuring ≥ 2 mm or greater in diameter, and dysplastic nevi in familial melanoma."
+	},
+
+	"qa-008": {
+		"question": "Which type of melanoma may appear on the soles and palms as flat brown or tan stains with irregular borders and is more common in dark-skinned people?",
+		"opa": "Superficial spreading melanoma",
+		"opb": "Lentigo maligna melanoma",
+		"opc": "Nodular melanoma",
+		"opd": "Acral lentiginous melanoma",
+		"answer": "opd",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "Acral lentiginous melanoma accounts for a considerable portion of melanomas among dark-skinned people but few melanomas found among White patients. It may appear on the soles and palms as stains that look flat, brown, or tan with irregular borders. In later stages, subungual lesions may be black or brown with ulcerations."
+	},
+
+	"qa-009": {
+		"question": "Which is recommended in the routine diagnosis of suspected melanoma among low-risk patients?",
+		"opa": "Whole-body photography with sequential examinations",
+		"opb": "Complete excisional biopsy of a suspicious lesion",
+		"opc": "Shave biopsy of the clinically deepest section of the lesion with sentinel lymph node biopsy",
+		"opd": "PET-CT scanning",
+		"answer": "opb",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "The most recent guidelines from the National Comprehensive Cancer Network (NCCN) recommend a complete excisional biopsy. The sample should include all layers of skin, some subcutaneous fat, and a 1- to 3-mm margin of healthy skin."
+	},
+
+	"qa-010": {
+		"question": "Which of these is associated with a worse prognosis in patients with melanoma?",
+		"opa": "Female sex",
+		"opb": "Presentation at a younger age",
+		"opc": "Decreased lactate dehydrogenase levels",
+		"opd": "Ulceration",
+		"answer": "opd",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "Factors associated with a worse prognosis in patients with melanoma include: Increased thickness and/or level of invasion, High mitotic index (mitoses per millimeter) and Ulceration or bleeding at the primary site."
+	},
+
+	"qa-011": {
+		"question": "Which is most accurate about the treatment of melanoma?",
+		"opa": "Medical management is recommended as first-line treatment for low-risk patients with early-stage melanoma",
+		"opb": "Medical management is contraindicated in patients with regional lymph node involvement",
+		"opc": "Surgery is the definitive treatment for early-stage cutaneous melanoma",
+		"opd": "Surgery is contraindicated in patients with solitary brain metastases",
+		"answer": "opc",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "Surgery is the definitive early-stage cutaneous melanoma treatment. Thus, medical management is reserved for adjuvant therapy of patients with advanced melanoma and for high-risk patients with regional lymph node involvement or deep primaries (> 4 mm) who are less likely to experience long-term disease-free survival."
+	},
+
+	"qa-012": {
+		"question": "Which of the following is most accurate regarding the presentation of cutaneous melanomas?",
+		"opa": "Cutaneous melanomas occur most commonly on the trunk in White females and the lower legs and back in White males",
+		"opb": "Most cutaneous melanomas arise on normal-appearing skin as opposed to developing in association with a precursor nevus",
+		"opc": "White, reddish, and blue discolorations of a mole are typically less concerning than other discolorations in regard to cutaneous melanoma",
+		"opd": "Routine sampling and mass removal of stable-appearing melanocytic nevi is recommended for melanoma prevention",
+		"answer": "opb",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "A new or changing mole or blemish is the most common warning sign for melanoma. Variation in color and/or an increase in diameter, height, or asymmetry of borders of a pigmented lesion are noted by most patients with melanoma at the time of diagnosis. Symptoms such as bleeding, itching, ulceration, and pain in a pigmented lesion are less common but warrant an evaluation. Again, because most cutaneous melanoma arises de novo (ie, on normal-appearing skin and not in association with a precursor nevus), routine sampling or mass removal of stable-appearing melanocytic nevi is not warranted for melanoma prevention."
+	},
+
+	"qa-013": {
+		"question": "Which of the following is the least common subtype of melanoma in light-skinned persons but the most common subtype of melanoma in dark-skinned persons?",
+		"opa": "Superficial spreading melanoma",
+		"opb": "Nodular melanoma",
+		"opc": "Acral lentiginous melanoma",
+		"opd": "Lentigo maligna melanoma",
+		"answer": "opc",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "Acral lentiginous melanoma is the least common subtype of melanoma in White persons and the most common subtype of melanoma in dark-skinned individuals. Due to delays in diagnosis, it is often associated with a worse prognosis."
+	},
+
+	"qa-014": {
+		"question": "Which of the following is recommended in the diagnosis of melanoma, according to guidelines?",
+		"opa": "Whole-body photography with sequential examinations is recommended when assessing high-risk patients for early melanoma detection",
+		"opb": "Dermatoscopy is only recommended in the assessment of pigmented skin lesions suspected of being melanoma",
+		"opc": "Confocal laser microscopy is recommended for all suspected melanomas",
+		"opd": "Ultrasonography should be performed on locoregional lymph nodes as part of the initial workup for all patients with melanoma in situ",
+		"answer": "opa",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "When melanoma is suspected based on clinical findings, it should be confirmed using histopathologic studies. Dermatoscopy should be used for assessing all nonpigmented and pigmented skin lesions. Training in dermatoscopy is considered mandatory."
+	},
+
+	"qa-015": {
+		"question": "Which of the following is recommended in the management of primary cutaneous melanoma according to guidelines?",
+		"opa": "Surgical margins for invasive cutaneous melanoma should be a minimum of 2 cm and a maximum of 4 cm",
+		"opb": "Excision of a primary cutaneous melanoma should include the fascia",
+		"opc": "Sentinel lymph node biopsy, when indicated, should be performed before wide excision of the primary cutaneous melanoma in the same operative setting",
+		"opd": "Asymptomatic patients with newly diagnosed stage II cutaneous melanoma should undergo baseline radiologic imaging",
+		"answer": "opc",
+		"type":"single answer",
+		"source": "https://reference.medscape.com/",
+		"commentary": "The recommended first-line treatment for any-thickness primary cutaneous melanoma, as well as for melanoma in situ, is surgical excision with histologically negative margins; tumor thickness should dictate the margins."
+	},
+
+	"qa-016": {
+		"question": "In what of the next diseases is observed parakeratosis?",
+		"opa": "basal cell carcinoma",
+		"opb": "seborrheic keratosis",
+		"opc": "melanoma",
+		"opd": "actinic keratosis",
+		"answer": "opd",
+		"type":"single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Parakeratosis is a disease of abnormal keratinization commonly seen in psoriasis and actinic keratosis. In parakeratosis, the basal layer divides rapidly. Hence, the basal cells reach the stratum corneum faster and do not have time to shed the nucleus."
+	},
+
+	"qa-017": {
+		"question": "Which of the following is the most common cutaneous malignant tumor?",
+		"opa": "basal cell carcinoma",
+		"opb": "squamous cell carcinoma",
+		"opc": "malignant melanoma",
+		"opd": "keratoacanthoma",
+		"answer": "opa",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Basal cell carcinoma is the most common skin cancer, constitutes 74% of non-melanoma cancers group, whereas squamous cell carcinoma only 23%."
+	},
+
+	"qa-018": {
+		"question": "Which of the following diseases has peripheral palisading appearance on microscopy cells as characteristic feature?",
+		"opa": "squamous cell carcinoma",
+		"opb": "basal cell carcinoma",
+		"opc": "malignant melanoma",
+		"opd": "keratoacanthoma",
+		"answer": "opb",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "In basal cell carcinoma, the tumor cells resemble cells of stratum basale that have grown into the dermis. This cluster of cells is surrounded at the periphery by perpendicularly arranged cells."
+	},
+
+	"qa-019": {
+		"question": "Which of the following types of basal cell carcinoma is the commonest type?",
+		"opa": "nodular",
+		"opb": "ulcerated",
+		"opc": "infiltrative",
+		"opd": "superficial",
+		"answer": "opa",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Nodular type is the commonest type of basal cell carcinoma."
+	},
+
+	"qa-020": {
+		"question": "Which of the following is a risk factor for basal cell carcinoma?",
+		"opa": "psoralen-UVA therapy",
+		"opb": "human papiloma virus infections",
+		"opc": "latrogenic infections",
+		"opd": "all of the above",
+		"answer": "opd",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Solar radiation, psoralen-UVA therapy, human papiloma virus infections, latrogenic infections and UV-B rays are risk factors for basal cell carcinoma"
+	},
+
+	"qa-021": {
+		"question": "Which of the following features is not true regarding basal cell carcinoma?",
+		"opa": "there is pre-malignant stage",
+		"opb": "rodent ulcer",
+		"opc": "rapid growth is unusual",
+		"opd": "80% occur in head and neck region",
+		"answer": "opa",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Basal cell carcinoma typically has no pre-malignant stage. Metastasis is extremely rare in basal cell carcinoma."
+	},
+
+	"qa-022": {
+		"question": "What of following conditions doesn't have malignant potential for progression to squamous cell carcinoma?",
+		"opa": "actinic keratosis",
+		"opb": "cutaneous horn",
+		"opc": "arsenical keratosis",
+		"opd": "keratoacanthoma",
+		"answer": "opd",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Keratoacanthoma is considered a form of well differentiated squamous cell carcinoma, not a pre-malignant condition."
+	},
+
+	"qa-023": {
+		"question": "Identify the incorrect statement regarding actinic keratosis.",
+		"opa": "Low risk of progression to squamous cell carcinoma",
+		"opb": "Most commonly found on light exposed areas",
+		"opc": "Epidermical mitotic activity is decreased",
+		"opd": "More common is the elderly",
+		"answer": "opc",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "As actinic keratosis may be considered a pre-malignant lesion, epidermical mitotic activity is increased, and there are occasional dyskeratotic cells may be seen in histopathology."
+	},
+
+	"qa-024": {
+		"question": "Histologically, what is meant by verrucous carcinoma?",
+		"opa": "Well-differentiated squamous cell carcinoma",
+		"opb": "Poorly differentiated basal cell carcinoma",
+		"opc": "Well-differentiated basal cell carcinoma",
+		"opd": "None of the above",
+		"answer": "opa",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Verrucous carcinoma is a well-differentiated squamous cell carcinoma. The tumor is characterized by an exophytic verruciform appearance with unknown etiology and can develop in areas of chronic inflammation."
+	},
+
+	"qa-025": {
+		"question": "Which of the following statements is true regarding keratoacanthoma?",
+		"opa": "Tumor have rapidly growing",
+		"opb": "It is a poorly differentiated squamous cell carcinoma",
+		"opc": "It is common in children",
+		"opd": "No spontaneous resolution",
+		"answer": "opa",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Keratoacanthoma is a rapidly evolving tumour of the skin considered as a well-differentiated squamous cell carcinoma and usually undergoes spontaneous resolution."
+	},
+
+	"qa-026": {
+		"question": "Which of the following is the most common type of melanoma?",
+		"opa": "Nodular",
+		"opb": "Superficial spreading",
+		"opc": "Lentigo maligna melanoma",
+		"opd": "Acral lentigious melanoma",
+		"answer": "opb",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Superficial spreading type is the most common type of melanoma (70%), usually arising in pre-existent nevus."
+	},
+
+	"qa-027": {
+		"question": "Which of the following statements is incorrect regarding melanoma?",
+		"opa": "More than 50% melanomas originate from pre-existing nevus",
+		"opb": "The number of dysplastic or atypical nevus is a risk factor for melanoma",
+		"opc": "Skin type I is Fitzpatrick's classification has higher risk",
+		"opd": "Sun exposure in childhood is considered an important risk factor",
+		"answer": "opa",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Only about 20-25% of melanomas arise from pre-existing nevus others arise de novo."
+	},
+
+	"qa-028": {
+		"question": "Which of the following is considered as a high-risk susceptibility gene for malignant melanoma?",
+		"opa": "CDKN1A",
+		"opb": "CDKN2A",
+		"opc": "CDKN3A",
+		"opd": "CDKN4A",
+		"answer": "opb",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "The cyclin-dependent kinase (CDK) inhibitor 2A gene (CDKN2A), located on chromosome 9p21, is the best established high-risk locus for melanoma susceptibility."
+	},
+
+	"qa-029": {
+		"question": "Which one of the following is the best prognostic factor for a melanoma?",
+		"opa": "Tumor thickness",
+		"opb": "Tumor size",
+		"opc": "Regularity of margins",
+		"opd": "Symmetry of tumor",
+		"answer": "opa",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Tumor thickness is the best prognostic factor of melanoma. It is distance in mm between epidermal granular layer and the deepest level of invasion of the primary lesion. Thicker tumours have a higher metastatic potential."
+	},
+
+	"qa-030": {
+		"question": "Which of the following is not a diagnostic clue used to assess the transformation of a nevus into a melanoma?",
+		"opa": "Irregular border",
+		"opb": "Inhomogeneous colour",
+		"opc": "Diameter > 4 mm",
+		"opd": "Asymmetry",
+		"answer": "opc",
+		"type": "single answer",
+		"source": "https://medicalstudyzone.com",
+		"commentary": "Melanoma lesions are often greater than 6 mm in diameter"
+	},
+
+	"qa-031": {    
+        "question": "A 58-year-old white man with hypertension and type 2 diabetes mellitus comes to the physician because of a 3-month history of a painless lesion on his lower lip. He has smoked one pack of cigarettes daily for 20 years. He has worked as a fruit picker for the past 25 years. His current medications include captopril and metformin. Examination of the oral cavity shows a single ulcer near the vermillion border. Which of the following is the most likely diagnosis?",
+        "opa": "squamous cell carcinoma",
+        "opb": "herpes labialis",
+        "opc": "actinic keratosis",
+        "opd": "basal cell carcinoma",
+        "answer": "opa",
+        "type": "single answer",
+        "source": "https://next.amboss.com/",
+        "commentary": "A chronic solitary ulcer of the lip in an older, light-skinned (white) male patient with a history of smoking and prolonged occupational sun-exposure is highly suggestive of malignancy. The most common malignancy of the lower lip is cutaneous squamous cell carcinoma (cSCC), which typically manifests in chronically sun-exposed areas. 95% of malignancies of the lower lip are SCCs. SCC typically begins as a papule and then becomes a friable ulcer with everted borders that bleeds readily. Other risk factors for SCC of the lower lip include HIV and immunosuppressive therapy."
+    }, 
+
+    "qa-032": {
+        "question": "A 44-year-old African American woman comes to the physician for a routine examination. She is concerned about cancer because her uncle died of metastatic melanoma 1 year ago. She has no history of serious illness and does not take any medication. She has been working in a law firm for the past 20 years and travels to the Caribbean regularly with her husband. Examination of the skin shows no abnormal moles or warts. This woman is at greatest risk of which of the following types of melanoma?",
+        "opa": "desmoplastic",
+        "opb": "nodular",
+        "opc": "acral lentiginous",
+        "opd": "lentigo maligna",
+        "answer": "opc",
+        "type": "single answer",
+        "source": "https://next.amboss.com/",
+        "commentary": "Acral lentiginous melanoma (ALM) is uncommon in individuals of European descent but is the most common type of melanoma in African American and Asian individuals. Unlike other types of melanomas, ALM is not associated with sun exposure. When arising from the nail bed, ALM usually manifests as a dark linear patch that widens with time (Hutchinson nail sign). On the palms, soles, and mucous membranes, ALM appears as an irregularly shaped, brown-black macule. Overall the most common type of melanoma is superficial spreading melanoma, followed by nodular melanoma, and lentigo maligna melanoma."
+    },
+
+    "qa-033": {
+        "question": "A 65-year-old man comes to the physician because he is worried about a mole on his right forearm. He has had the mole for several years, but it has grown in size in the past 3 months. Physical examination shows a hyperpigmented plaque with irregular borders and small area of ulceration. Histopathologic analysis of a full-thickness excisional biopsy confirms the diagnosis of malignant melanoma. Invasion of which of the following layers of skin carries the highest risk of mortality for this patient?",
+        "opa": "stratum corneum",
+        "opb": "reticular dermis",
+        "opc": "papillary dermis",
+        "opd": "hypodermis",
+        "answer": "opd",
+        "type": "single answer",
+        "source": "https://next.amboss.com/",
+        "commentary": "The hypodermis (subcutis) is the deepest layer of the skin, and melanoma mortality is directly correlated with tumor thickness. Due to variability in the thickness of skin compartments among different individuals, tumor thickness does not always correspond with skin layer invasion. However, in this patient, it is likely that a tumor extending into the hypodermis is thicker than a tumor in a more superficial layer. Breslow depth is the most important prognostic factor used for melanoma staging and to determine the safety margin of a full-thickness incision."
+    },
+
+    "qa-034": {
+        "question": "A 70-year-old man comes to the physician because of a painless skin lesion on his neck for the past 5 months. The lesion has gradually become darker in color and is often pruritic. He has a similar lesion on the back. He is a retired landscaper. He has smoked half a pack of cigarettes daily for 45 years. Physical examination shows a 0.9-cm hyperpigmented papule on the neck with a greasy, wax-like, and stuck-on appearance. Histopathologic examination is most likely to show which of the following?",
+        "opa": "S100-positive epithelioid cells with fine granules in the cytoplasm",
+        "opb": "Koilocytes in the granular cell layer of the epidermis",
+        "opc": "Nests of melanocytes at the base of rete ridges and the dermis",
+        "opd": "Immature keratinocytes with small keratin-filled cysts",
+        "answer": "opd",
+        "type": "single answer",
+        "source": "https://next.amboss.com/",
+        "commentary": "Immature keratinocytes with small keratin-filled cysts are characteristic of seborrheic keratosis, the most common benign skin tumor in elderly individuals. These lesions manifest as single or multiple darkly pigmented, clearly-demarcated papules or plaques that have a greasy, wax-like, and stuck-on appearance. Seborrheic keratoses can be pruritic or become irritated and bleed, especially as they tend to develop on exposed body parts, including the hands, arms, trunk, face, and neck."
+    },
+
+	"qa-035": {
+		"question": "A 78-year-old patient is seen following excision and skin grafting of a basal cell carcinoma (BCC) from the right inner canthus. The pathology report states that the BCC was incompletely excised at the lateral peripheral margin. What would be the treatment of choice for this patient?",
+		"opa": "Radiotherapy to the skin graft site",
+		"opb": "Excision of the lateral aspect of the skin graft and 4 mm additional tissue",
+		"opc": "Mohs micrographic surgery to the area lateral to the skin graft",
+		"opd": "Excision of the skin graft and Mohs micrographic surgery to the whole site.",
+		"answer": "opd",
+		"type":"single answer",
+		"source": "Dermatology postgraduate MCQs and revision notes. CRC Press",
+		"commentary": "Surgical excision is the treatment of choice for the majority of primary basal cell carcinomas. In experienced hands the recurrence rate of BCCs after excision with appropriate margins is less than 2% at 5 years. In this question the patient is presenting with an incompletely excised BCC from the inner canthus that has been repaired with a skin graft. Given the proximity of the lesion to the orbit Mohs micrographic surgery is the treatment of choice. Even with the use of a marking suture there is always some uncertainty of the location of the involved margin and convention is to remove the whole graft and take a circumferential Mohs layer."
+	},
+
+	"qa-036": {
+		"question": "A 63-year-old woman presents with a non-healing lesion on her right temple that has been present for over two years. On examination there is a 6 mm well defined lesion with central ulceration, telangiectasia and a shiny, rolled edge. What is the treatment of choice for this lesion?",
+		"opa": "Superficial radiotherapy",
+		"opb": "Excision with 2 mm margins",
+		"opc": "Excision with 4 mm margins",
+		"opd": "Mohs micrographic surgery",
+		"answer": "opc",
+		"type":"single answer",
+		"source": "Dermatology postgraduate MCQs and revision notes. CRC Press",
+		"commentary": "In this question the patient has a lesion clinically typical of a small basal cell carcinoma. Suitable treatments would include excision and radiotherapy. Given the relatively young age of patient, excision with appropriate 4 mm margins would give a better cosmetic outcome than radiotherapy in the long run."
+	},
+
+	"qa-037": {
+		"question": "You review a 38-year-old woman who presented two years previously with a 5.4 mm Breslow thickness melanoma on her ankle. The melanoma was removed with a 3 cm wide excision and a split skin graft was used to cover the defect. She re-presented two weeks ago with a blue-black nodule adjacent to the skin graft and palpable lymphadenopathy in the ipsilateral groin. Fine needle aspiration of the lump and groin lymph nodes has shown melanoma and a CT scan has shown no further evidence of metastatic spread. What treatment would you recommend for this patient?",
+		"opa": "excision of the local cutaneous metastasis and radiotherapy to the groin",
+		"opb": "excision of the local cutaneous metastasis and selective removal of enlarged lymph nodes in the groin",
+		"opc": "excision of the local cutaneous metastasis and block lymph node dissection in the groin",
+		"opd": "isolated limb infusion of the leg",
+		"answer": "opc",
+		"type":"single answer",
+		"source": "Dermatology postgraduate MCQs and revision notes. CRC Press",
+		"commentary": "In this question a young woman is presenting with loco-regional recurrence of a thick melanoma from her leg. Appropriate treatment would be excision of the local metastasis and block lymph node dissection of the groin by an experienced melanoma surgeon. Selective removal of enlarged lymph nodes would be unsatisfactory due to the likelihood of micrometastasis in other local lymph nodes. There is no role for radiotherapy or isolated limb infusion in the patient at this stage."
+	},
+
+	"qa-038": {
+		"question": "A 28-year-old woman presents with a history of a longstanding mole on her leg that has recently increased in size and become darker. On examination the mole stands out, it has an irregular, ill-defined border, variation in colour and it lacks symmetry. You excise the mole with 2 mm clinical margins. Histopathology reports a fully excised invasive melanoma, Breslow thickness 0.2 mm, Clark level II and no ulceration. What further treatment should you recommend?",
+		"opa": "re-excision of 8 mm around the scar",
+		"opb": "re-excision of 1 cm around the scar",
+		"opc": "re-excision of 2 cm around the scar",
+		"opd": "refer for radiotherapy",
+		"answer": "opa",
+		"type":"single answer",
+		"source": "Dermatology postgraduate MCQs and revision notes. CRC Press",
+		"commentary": "When melanoma is suspected the lesion should be excised in full with a margin of 2 mm. In this question the patient has had a 2 mm margin diagnostic excision of a thin, 0.2 mm melanoma. In accordance with guidelines a further 8 mm of tissue should be removed bringing the total excision margin to 1 cm. Radiotherapy has no place in the treatment of primary melanoma although it may be used for palliative treatment of metastatic disease."
+	},
+
+	"qa-039": {
+		"question": "An 81-year-old woman presents with a rapidly growing lesion on her right helix. On examination there is a 2 cm diameter, well defined, skin coloured nodule with a central keratin plug. You suspect a diagnosis of keratoacanthoma. What treatment option should you recommend?",
+		"opa": "radiotherapy",
+		"opb": "incisional biopsy",
+		"opc": "excision biopsy",
+		"opd": "curettage and cautery",
+		"answer": "opc",
+		"type":"single answer",
+		"source": "Dermatology postgraduate MCQs and revision notes. CRC Press",
+		"commentary": "In this question the patient should undergo an excision biopsy with minimal surgical margins. With other forms of skin biopsy the pathologist will not be able to diagnose keratoacanthoma as they need to examine the architecture of the whole lesion."
+	},
+
+	"qa-040": {
+		"question": "You review a 53-year-old man from whom you have excised a well differentiated SCC (squamous cell carcinoma) arising on the scalp within an area of Bowen’s disease, lesion diameter 21 mm, invading 5 mm into the deep dermis, fully excised with 2 mm histological margins; clinically 5 mm surgical margins were taken and the lesion was excised to the depth of subcutaneous fat. What treatment option is most appropriate for this lesion?",
+		"opa": "lesion doesn't require further treatment",
+		"opb": "lesion requires re-excision",
+		"opc": "lesion requires radiotherapy",
+		"opd": "lesion requires curettage and cautery",
+		"answer": "opb",
+		"type":"single answer",
+		"source": "Dermatology postgraduate MCQs and revision notes. CRC Press",
+		"commentary": "In this question, lesion should be considered high risk. Although well differentiated it has arisen within an area of Bowen’s disease, it measures over 2 cm in diameter and invades over 4 mm into the deep dermis. It has been excised with a relatively narrow peripheral margin of 5 mm and a shallow deep margin of subcutaneous fat. This lesion should be re-excised to the depth of the aponeurosis and a cumulative peripheral margin of between 7 and 10 mm."
+	}
+}
+
