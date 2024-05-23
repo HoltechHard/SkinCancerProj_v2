@@ -1,0 +1,64 @@
+version: '3.9'
+
+services:
+  app: 
+    build: 
+      context: .
+      dockerfile: Dockerfile-app
+    image: holtech/app_skin_cancer:v2
+    ports:  
+      - "5000:5000"
+    depends_on:
+      - db
+      - qdrant
+    volumes:
+      - ./app_skin_cancer:/app/app_skin_cancer
+    networks:
+      - skin_cancer_network
+    deploy:
+      resources:
+        reservations:
+          memory: 10G
+          cpus: '1'
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile-mysql
+    image: holtech/db_skin_cancer:v2
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: db_skin_cancer
+      MYSQL_ROOT_PASSWORD: holtech123
+    networks:
+      - skin_cancer_network
+  qdrant:    
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    deploy:
+      resources:
+        reservations:
+          memory: 1G
+          cpus: '0.3'           
+    networks:
+      - skin_cancer_network
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes: 
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./app_skin_cancer:/usr/share/nginx/html
+    depends_on:
+      - app
+    networks:
+      - skin_cancer_network
+    
+volumes:
+  app_skin_cancer:
+  db_skin_cancer:
+  qdrant_skin_cancer:
+
+networks:
+  skin_cancer_network:
