@@ -21,7 +21,7 @@ from datasets import Dataset
 AIMODEL_PATH = "ai_engine/"
 
 # set virtual environment variable
-os.environ['OPENAI_API_KEY'] = 'sk-proj-dknPaXjPR32xWYZ6t3DvT3BlbkFJrHdLNxPZreG0XZaDd2zy'
+# os.environ['OPENAI_API_KEY'] = 'sk-proj-dknPaXjPR32xWYZ6t3DvT3BlbkFJrHdLNxPZreG0XZaDd2zy'
 
 #       --- class Biomistral-7B RAG Engine ---
 
